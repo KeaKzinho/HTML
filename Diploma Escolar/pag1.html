@@ -4,17 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="pag1.css">
 </head>
 <body>
-    <form action="diploma.html" method="get">
-        <input class="dados" type="text" name="nome" id="nome" placeholder="DIGITE O SEU NOME">
-        <input class="dados" type="text" name="idade" id="idade" placeholder="DIGITE SUA IDADE">
-        <input type="radio" name="sexo" id="masculino" value="Masculino">
-        <input type="radio" name="sexo" id="feminino" value="Feminino">
-        <input type="radio" name="sexo" id="prefiro" value="Prefiro não dizer">
+        <form action="diploma.html" method="get">
 
-        <input type="submit" value="Enviar">
-    </form>
+            <div class="genero">
+                <input class="genero" type="text" name="nome" id="nome" placeholder="DIGITE O SEU NOME">
+            </div>
 
+            <div class="genero">
+                <input class="dados" type="text" name="idade" id="idade" placeholder="DIGITE SUA IDADE">
+            </div>
+
+            <div class="genero">
+                <p id="homem">Masculino</p>
+                <input class="dados" type="radio" name="sexo" id="masculino" value="Masculino">
+            </div>
+
+            <div class="genero">
+                <p id="mulher">Feminino</p>
+                <input class="dados" type="radio" name="sexo" id="feminino" value="Feminino">
+            </div>
+
+            <div class="genero">
+                <p id="indefinidol">Indefinido</p>
+                <input class="dados" type="radio" name="sexo" id="prefiro" value="indefinido">
+            </div>
+            <input id="button" type="submit" value="Enviar">
+        </form>
 </body>
 </html>
