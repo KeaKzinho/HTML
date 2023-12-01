@@ -4,5 +4,5 @@ window.onload = function (){
     const IDADE = urlParams.get("idade")
     const SEXO = urlParams.get("sexo")
 
-    diploma.innerHTML = `Declaramos que ${NOME}, de ${IDADE} anos, do sexo ${SEXO} da escola Proz Educação, completou o curso "Análise de Desenvolvimento de Sistemas" com sucesso.`
+    diploma.innerHTML = `A Reitora da Proz Educação, no uso de suas atribuições e tendo em vista a conclusão do curso de ${NOME}, de ${IDADE} anos, do sexo ${SEXO} da escola Proz Educação, completou o curso "Análise de Desenvolvimento de Sistemas" com sucesso.`
 }

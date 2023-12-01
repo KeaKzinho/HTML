@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#titulo{
+    color: white;
+    background-color: blue;
+    border: 12px solid blue;
+    opacity: calc(0.5);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-image: url(Fundo\ Diploma.jpeg);
+    border: 20px solid gainsboro;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    width: 97.5vw;
+    height: 93.69vh;
+    border: 20px solid gainsboro;
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    
+}
+
+p{
+    margin: auto;
+    margin-top: 200px;
+    width: 900px;
+    font-size: 30px;
+}
+
+#brasa{
+    width: 280px;
+    height: 150px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+

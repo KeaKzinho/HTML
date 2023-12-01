@@ -64,3 +64,10 @@ a:hover{
     color: darkblue;
     text-decoration-line: underline;
 }
+
+hr{
+    height: 30px;
+    color: pink;
+    background-color: pink;
+    margin-top: 30px;
+}
