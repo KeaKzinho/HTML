@@ -5,12 +5,11 @@
 }
 
 #titulo{
-    color: white;
-    background-color: blue;
-    border: 12px solid blue;
-    opacity: calc(0.5);
+    color: black;
+    margin-top: 180px;
+    font-size: 50px;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
 }
 
@@ -35,9 +34,11 @@ main{
 
 p{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 20px;
     width: 900px;
     font-size: 30px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #brasa{
@@ -48,4 +49,37 @@ p{
     left: 40px;
 }
 
+#assinatura{
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    margin-top: 50px;
+    margin-right: 750px;
+}
 
+#escrita{
+    margin: auto;
+    margin-left: 0px;
+}
+
+#assinatura2{
+    margin-top: auto;
+    width: 300px;
+    position: absolute;
+    height: 150px;
+    margin-top: -150px;
+    margin-left: 250px;
+}
+
+#escrita2{
+    margin: auto;
+    margin-left: 750px;
+}
+
+#bandeira{
+    margin: auto;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 50px;
+
+}

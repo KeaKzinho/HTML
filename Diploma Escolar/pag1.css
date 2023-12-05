@@ -18,7 +18,7 @@ form{
     border: 12px solid lightskyblue;
     width: 600px;
     height: 300px;
-    padding-bottom: 75px;
+    padding-bottom: 180px;
     border: 5px solid black;
     margin-top: 30px;
     border-radius: 30px;
@@ -61,7 +61,7 @@ p{
 
 }
 
-#nome, #idade{
+#nome, #idade, #cpf, #disciplina{
     width: 500px;
     height: 30px;
     text-align-last: center;
@@ -69,7 +69,7 @@ p{
 }
 
 .titulo{
-    margin-top: 45px;
+    margin-top: 50px;
     color: antiquewhite;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration:underline;
