@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+body{
+    background-color: lightblue;
+}
+
+@font-face {
+    font-family: Aquila;
+    src: url(Aquila.ttf);
+}
+
+@font-face {
+    font-family: Song;
+    src: url(Please\ write\ me\ a\ song.ttf);
+}
+
+@font-face {
+    font-family: King;
+    src: url(King\ Richard\ Rg.otf);
+}
+
+header.banner{
+    background-color: rgb(130, 154, 185);
+    width: 100%;
+    height: 10vh;
+    display:flex;
+}
+
+header.banner > img#K{
+    width: 5%;
+    padding-left: 10px;
+}
+
+header.banner > h1#título{
+    font-family: Aquila;
+    font-size: 40px;
+    padding-top: 13px;
+    margin-left: 20px;
+}
+
+header.banner > button#buttonshopping{
+    border-color: lightsteelblue;
+    border-radius: 15px;
+    background-color: rgb(153, 194, 207);
+    font-family: 'Lucida Sans'; 
+    -webkit-text-stroke: 1px;
+    width: 7%;
+    height: 6vh;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+header.banner > img#shoppingcart{
+    width: 30px;
+    height: 30px;
+    padding-top: 13px;
+    margin-left: 65%;
+}
+
+div#propaganda > p#BSanuncio{
+    font-family: King;
+    font-style: inherit;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -90px;  
+    text-shadow: 0cqmax;
+}
+
+div#propaganda > img#BlockStrike{
+    margin-top: 2px;
+    width: 100%;
+}
+
+#hr{
+    width: 100%;
+    margin-top: 37px;
+    height: 10px;
+    background-color: black;
+}
+
+#destaque{
+    font-family: Song;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+
+::-webkit-scrollbar{
+    width: 0;
+}
